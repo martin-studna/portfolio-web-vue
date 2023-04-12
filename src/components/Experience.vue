@@ -4,7 +4,7 @@
             <div class="title3">EXPERIENCE</div>
         </FadeUp>
             <div class="work-cards">
-            <FadeUp>
+            <FadeUp class="center">
             <Card
                     className="work-card"
                     :imageSrc="require('../assets/quantasoft-logo.jpeg')"
@@ -18,7 +18,7 @@
                 
                 </Card>
             </FadeUp>
-            <FadeUp>
+            <FadeUp class="center">
                 <Card
                     className="work-card"
                     :imageSrc="require('../assets/atol-logo.jpeg')"
@@ -31,7 +31,7 @@
 
                 </Card>
                 </FadeUp>
-                <FadeUp>
+                <FadeUp class="center">
                 <Card
                     :imageSrc="require('../assets/company_default.jpg')"
                     className="work-card"
@@ -46,7 +46,7 @@
 
                 </Card>
             </FadeUp>
-            <FadeUp>
+            <FadeUp class="center">
                 <Card
                     className="work-card"
                     :imageSrc="require('../assets/ibm-logo.jpeg')"
@@ -77,6 +77,9 @@ export default defineComponent({
 });
 
 </script>
-<style lang="">
-    
+<style>
+    .center {
+        display: flex;
+        justify-content: center;
+    }
 </style>

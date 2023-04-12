@@ -1,23 +1,26 @@
 <template>
     <nav>
-        <router-link to="/" v-on:click="hideMenu">
-            <img style="max-width: 110px; max-height: 110px" src="../assets/logo_cube.svg" alt="navigation-bar-logo">
-        </router-link>
+        <div class="nav-container">
+            <router-link to="/" v-on:click="hideMenu">
+                <img style="width: 110px; height: 110px" src="/logo_cube.svg" alt="navigation-bar-logo">
+            </router-link>
+    
+            <div class="hamburger" @click="toggle">
+                <div v-bind:class="line"></div>
+                <div v-bind:class="line"></div>
+                <div v-bind:class="line"></div>
+            </div>
+            <div v-bind:class="nav">
+                <ul>
+                    <li v-bind:class="fade">
+                        <router-link to="/" v-on:click="toggle">Home</router-link>
+                    </li>
+                    <li v-bind:class="fade">
+                        <router-link to="/blog" v-on:click="toggle">Blog</router-link>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="hamburger" @click="toggle">
-            <div v-bind:class="line"></div>
-            <div v-bind:class="line"></div>
-            <div v-bind:class="line"></div>
-        </div>
-        <div v-bind:class="nav">
-            <ul>
-                <li v-bind:class="fade">
-                    <router-link to="/" v-on:click="toggle">Home</router-link>
-                </li>
-                <li v-bind:class="fade">
-                    <router-link to="/blog" v-on:click="toggle">Blog</router-link>
-                </li>
-            </ul>
         </div>
     </nav>
 </template>

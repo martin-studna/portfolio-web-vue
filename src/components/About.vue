@@ -15,7 +15,7 @@
         <FadeUp>
         <div class="capitalize">FOLLOW ME</div>
         <div class="links">
-            <a href="https://linkedin.c../martin-studna" target="_blank">
+            <a href="https://linkedin.com/in/martin-studna" target="_blank">
               <img src="../assets/linkedin-logo.svg" alt="linkedin-logo" style=" margin-bottom: 0.4rem"/>
             </a>
             <a href="https://twitter.com/MartinStudna" target="_blank">

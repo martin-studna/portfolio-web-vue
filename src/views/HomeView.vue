@@ -38,7 +38,7 @@ export default defineComponent({
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 4rem 15px;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -46,36 +46,18 @@ export default defineComponent({
   gap: 10rem;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
 
 
 
 @media (max-width: 768px) {
   .main {
     width: 100%;
-    padding: 0 2rem;
+    padding: 0 15px;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
   .code {
     background: #111;
   }
