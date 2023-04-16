@@ -15,9 +15,9 @@
                     <li v-bind:class="fade">
                         <router-link to="/" v-on:click="toggle">Home</router-link>
                     </li>
-                    <li v-bind:class="fade">
+                    <!-- <li v-bind:class="fade">
                         <router-link to="/blog" v-on:click="toggle">Blog</router-link>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
 
