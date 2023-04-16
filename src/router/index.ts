@@ -20,7 +20,7 @@ const routes: Array<RouteRecordRaw> = [
 
 
 const scrollBehavior: RouterScrollBehavior =  (to: RouteLocationNormalized, from: RouteLocationNormalizedLoaded, savedPosition: any): any  => {
-    return { x: 0, y: 0 }
+    return { top: 0, left: 0, behavior: 'smooth' }
 };
 
 const router = createRouter({
