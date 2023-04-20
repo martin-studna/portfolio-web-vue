@@ -2,7 +2,7 @@
     <nav>
         <div class="nav-container">
             <router-link to="/" v-on:click="hideMenu">
-                <img style="width: 110px; height: 110px" src="/logo_cube.svg" alt="navigation-bar-logo">
+                <img style="width: 60px; height: 60px; margin: .8rem 0" src="/logo_cube.svg" alt="navigation-bar-logo">
             </router-link>
     
             <div class="hamburger" @click="toggle">

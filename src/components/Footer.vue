@@ -1,7 +1,7 @@
 <template>
     <div class="footer">
         
-        <img src="/logo_cube.svg" alt="logo-footer" style="width: 110px; height: 110px">
+        <img src="/logo_cube.svg" alt="logo-footer" style="width: 60px; height: 60px;">
         <div>
             <p style="font-size: 12px; font-weight: 400;">© MARTIN STUDNA 2023 </p>
         </div>
