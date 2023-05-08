@@ -14,7 +14,7 @@
               <h1 class="title">Martin Studna</h1>
 
             </div>
-            <img class="profileImage" src="/profile.jpeg" alt="profile-image" />        
+            <img class="profileImage" src="/profile.jpg" alt="profile-image" />        
           </div>
 
         </div>
