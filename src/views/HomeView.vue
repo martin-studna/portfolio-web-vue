@@ -1,8 +1,8 @@
 <template>
   <div class="main">
     <Introduction/>
+    <!-- <Projects/> -->
     <About/>
-    <Projects/>
     <Services/>
     <Experience/>
   </div>
@@ -22,7 +22,7 @@ export default defineComponent({
     Introduction,
     About,
     Experience,
-    Projects,
+    // Projects,
     Services
 },
 });
