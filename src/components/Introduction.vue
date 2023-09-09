@@ -1,8 +1,8 @@
 <template>
-    <FadeUp :delay="0">
     <div class="container">
-        <div>
+        <div style="margin-bottom: 2rem;">
           <div class="items">
+            <Fade :delay="0" style="display: flex; justify-content: center;">
             <div class="titles">
               <div class="subtitle">
                 <span class="capitalize">CONTACT ME</span>
@@ -14,18 +14,24 @@
               <h1 class="title">Martin Studna</h1>
 
             </div>
-            <img class="profileImage" src="/profile.jpg" alt="profile-image" />        
+            </Fade>
+            <FadeUp :delay="500" id="profile-image-container">
+            <div class="profileImage" alt="profile-image" ></div>
+            </FadeUp>
           </div>
 
         </div>
+        <Fade>
         <button class="scrollDownButton" @click="scroll" aria-label="scroll-down">
           <div class="buttonArrow"></div>
         </button>
+        </Fade>
       </div>
-    </FadeUp>
+    
 </template>
 <script lang="ts">
 import FadeUp from './FadeUp.vue'
+import Fade from './Fade.vue'
 
 export default {
     methods: {
@@ -40,7 +46,7 @@ export default {
             });
         }
     },
-    components: { FadeUp }
+    components: { FadeUp, Fade }
 }
 </script>
 <style>
@@ -49,7 +55,7 @@ export default {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 17rem;
+  margin-top: 12rem;
   flex-direction: column;
   align-items: center;
   height: 65vh;
@@ -66,7 +72,7 @@ export default {
 .titles {
   display: flex;
   flex-direction: column; 
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .title {
@@ -80,10 +86,16 @@ export default {
 
 
 .profileImage {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  background-image: url("@/assets/Martin Studna-48.png");
+  width: 400px;
+  height: 600px;
+  box-shadow: 0 0  10px 10px white inset;
+  background-size: contain;
+  background-repeat: round;
+  border-radius: 30px;
+  margin-left: 2rem;
+  /* opacity: .9; */
+  
 }
 
 
@@ -147,7 +159,7 @@ export default {
   .container {
     margin-top: 10rem;
     height: 75vh;
-    margin-top: 8rem;
+    margin-top: 10rem;
   }
 
   .scrollDownButton {
@@ -168,6 +180,19 @@ export default {
   .title {
     margin-bottom: 0;
   }
+
+  #profile-image-container {
+    width: 100%;
+  }
+
+  .profileImage {
+
+    width: 100%;
+    height: 300px;
+    /* background-repeat: unset; */
+    margin-left: 0;
+  }
+
 }
     
 </style>

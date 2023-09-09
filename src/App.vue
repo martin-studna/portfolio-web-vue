@@ -26,6 +26,10 @@ export default defineComponent({
   flex-direction: column;
 }
 
+
+
+
+
 .footer-line {
   width: 100%;
   height: 1px;

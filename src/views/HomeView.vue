@@ -2,9 +2,9 @@
   <div class="main">
     <Introduction/>
     <About/>
+    <Projects/>
     <Services/>
     <Experience/>
-    <!-- <Projects/> -->
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 import About from '@/components/About.vue';
 import Experience from '@/components/Experience.vue';
 import Introduction from '@/components/Introduction.vue';
-//import Projects from '@/components/Projects.vue';
+import Projects from '@/components/Projects.vue';
 import Services from '@/components/Services.vue';
 import { defineComponent } from 'vue';
 
@@ -22,7 +22,7 @@ export default defineComponent({
     Introduction,
     About,
     Experience,
-    //Projects,
+    Projects,
     Services
 },
 });
