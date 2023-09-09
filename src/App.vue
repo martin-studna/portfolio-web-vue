@@ -27,7 +27,23 @@ export default defineComponent({
 }
 
 
+body::-webkit-scrollbar-track
+{
+	/* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+  border: 1px solid rgb(209, 209, 209);
+	background-color: #ffffff;
+}
 
+body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
 
 
 .footer-line {
