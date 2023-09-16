@@ -56,7 +56,7 @@ export default defineComponent({
 .fade-up {
     opacity: 0;
     transform: translateY(30px);
-    transition: opacity 0.5s ease-in, transform 0.5s ease-in;
+    transition: opacity 0.8s ease-in, transform 0.8s ease-in;
 }
 
 .fade-up--active {

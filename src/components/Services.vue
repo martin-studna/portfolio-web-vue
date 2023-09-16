@@ -7,48 +7,67 @@
             <FadeUp>
                 <div>
                     <div class="title4">MACHINE LEARNING</div>
-                    <div>Unlock the full potential of machine learning with my expert services. I offer custom model
-                        development, data analysis, and deployment solutions to help you achieve your goals. Let me guide
-                        you through the complexities of this powerful technology and deliver results for your business.
-                    </div>
+                    <ul>
+                        <li>Custom model development for specific business needs</li>
+                        <li>Data analysis to extract valuable insights from large datasets.</li>
+                        <li>MLOps - Deployment solutions for seamless integration into existing systems.</li>
+                        <li>Recommendation systems for personalized product/service recommendations.</li>
+                        <li>Fraud detection</li>
+                        <li>Time series forecasting and anomaly detection</li>
+                        <li>Algorithmic trading</li>
+                        <li>Technology: Scikit-learn, Pandas</li>
+                        
+                    </ul>
                 </div>
             </FadeUp>
             <FadeUp>
                 <div>
                     <div class="title4">COMPUTER VISION</div>
-                    <div>With experience in both industry and academia, I have developed a deep expertise in computer
-                        vision. I am skilled in implementing state-of-the-art models from the latest research articles, and
-                        proficient in PyTorch, TensorFlow, and OpenCV. I offer customized solutions to meet your unique
-                        needs and take your computer vision projects to the next level.</div>
+                    <ul>
+                        <li>Custom object detection and recognition system for businesses' hardware and software</li>
+                        <li>Facial recognition system for access control and personalized customer experiences</li>
+                        <li>Video analytics platform for real-time surveillance and security monitoring</li>
+                        <li>Recommendation systems for personalized product/service recommendations.</li>
+                        <li>Image and video analysis software for valuable insights and information.</li>
+                        <li>Technology: Tensorflow, PyTorch, OpenCV</li>
+                    </ul>
                 </div>
             </FadeUp>
             <FadeUp>
                 <div>
                     <div class="title4">NATURAL LANGUAGE PROCESSING</div>
-                    <div>With a deep understanding of Natural Language Processing (NLP), I have the skills and experience to
-                        help you take full advantage of this exciting technology. Drawing on my expertise in developing
-                        chatbots, speech recognition software, and other NLP tasks, I offer customized solutions tailored to
-                        your specific needs. Having attended NLP courses at UFAL, one of the world's most respected NLP
-                        departments, I stay up to date with the latest techniques and tools in this field. Let me help you
-                        succeed in your NLP projects.</div>
+                    <ul>
+                        <li>Chatbot development using natural language processing for personalized customer interactions</li>
+                        <li>Text classification for customer service automation and email filtering</li>
+                        <li>Conversational AI platforms using natural language processing for virtual assistants and chatbots</li>
+                        <li>Voice assistants and voice recognition systems for smart homes and smart devices</li>
+                        <li>Language modeling and generation for automated content creation and product description generation.</li>
+                    </ul>
                 </div>
             </FadeUp>
             <FadeUp>
                 <div>
                     <div class="title4">FRONTEND DEVELOPMENT</div>
-                    <div>Using cutting-edge frameworks such as Vue and React, I create dynamic, responsive websites that
-                        engage your visitors. With a focus on delivering an exceptional user experience and attention to
-                        detail, I offer customized solutions that are optimized for your business needs. Let me help you
-                        bring your website vision to life with a website that stands out from the crowd.</div>
+                    <ul>
+                        <li>I create dynamic, responsive websites using Vue and React frameworks.</li>
+                        <li>My customized solutions are optimized for your business needs.</li>
+                        <li>My expertise in web design brings your website vision to life.</li>
+                        <li>I design websites that engage your visitors and deliver exceptional user experiences.</li>
+                        <li>Let me help you create a website that stands out and delivers results.</li>
+                    </ul>
                 </div>
             </FadeUp>
             <FadeUp>
                 <div>
                     <div class="title4">BACKEND DEVELOPMENT</div>
-                    <div>With extensive experience in backend development, I specialize in creating high-performance
-                        applications using C# and NodeJs, and leveraging technologies such as ASP.NET, Docker, SQL,
-                        Redis, Messaging protocols, and Cloud technologies. Trust me to build a backend that meets
-                        your business needs and provides your users with an exceptional experience.</div>
+                    <ul>
+                        <li>I have extensive experience in backend development using C# and NodeJs.</li>
+                        <li>I leverage technologies such as ASP.NET, Docker, SQL, Redis, Messaging protocols, and Cloud technologies to create high-performance applications.</li>
+                        <li>Trust me to build a backend that provides your users with an exceptional experience.</li>
+                        <li>I specialize in creating scalable, secure, and reliable backend systems that can handle high traffic and complex workflows.</li>
+                        <li>Let me help you create a backend that powers your business and delivers results.</li>
+                        
+                    </ul>
                 </div>
             </FadeUp>
         </div>
@@ -77,6 +96,11 @@ export default defineComponent({
 });
 </script>
 <style>
+ul, li {
+    list-style-type: unset;
+    margin-left: .7rem;
+    padding-left: 0;
+}
 .services-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
