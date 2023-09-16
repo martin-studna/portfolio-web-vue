@@ -30,7 +30,7 @@ jobs:
           key: ${{ secrets.PRIVATE_SSH_KEY }}
           port: 22
           source: "dist"
-          target: "/var/www/portfolio-web-vue/dist/"
+          target: "/var/www/portfolio-web-vue/"
 
       - name: Deploy to server
         uses: appleboy/ssh-action@master
