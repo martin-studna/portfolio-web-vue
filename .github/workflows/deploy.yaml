@@ -29,6 +29,5 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           key: ${{ secrets.PRIVATE_SSH_KEY }}
           script: |
-            cd /var/www/portfolio-web-vue/
-            cp -r $GITHUB_WORKSPACE/dist/* dist/
+            cp -r dist/* /var/www/portfolio-web-vue/dist/
             sudo systemctl restart nginx
