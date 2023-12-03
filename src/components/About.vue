@@ -1,5 +1,5 @@
 <template lang="">
-    <div id="about" >
+    <div id="about" style="height: 100vh" >
       <FadeUp> 
        <h1 class="description" ><span style="color: #D72323">AI</span> Engineer turning ideas into innovations</h1>
       </FadeUp>

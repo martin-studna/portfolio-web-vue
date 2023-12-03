@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="height: 100vh;">
         <FadeUp>
             <div class="title3">MY SERVICES</div>
         </FadeUp>

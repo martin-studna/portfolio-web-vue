@@ -1,77 +1,72 @@
 <template>
-    <div class="container">
-        <div style="margin-bottom: 2rem;">
-          <div class="items">
-            <Fade :delay="0" style="display: flex; justify-content: center;">
-            <div class="titles">
-              <div class="subtitle">
-                <span class="capitalize">CONTACT ME</span>
-                <br />
-                hello@martin-studna.com
-                <br />
-                +420 775 058 619
-              </div>
-              <h1 class="title">Martin Studna</h1>
-
+  <div class="container">
+    <div></div>
+    <div style="margin-bottom: 2rem;">
+      <div class="items">
+        <Fade :delay="0" style="display: flex; justify-content: center;">
+          <div class="titles">
+            <div class="subtitle">
+              <span class="capitalize">CONTACT ME</span>
+              <br />
+              martin.studna2@gmail.com
+              <br />
+              +420 775 058 619
             </div>
-            </Fade>
-            <FadeUp :delay="500" id="profile-image-container">
-            <div class="profileImage" alt="profile-image" ></div>
-            </FadeUp>
+            <h1 class="title" style="margin-bottom: 0; font-size: 7em;">MARTIN STUDNA</h1>
+            <div class="subtitle" style="font-size: 1.2em; margin-left: .5rem;">DEEP LEARNING ENGINEER & CONSULTANT</div>
           </div>
-
-        </div>
-        <Fade>
-        <button class="scrollDownButton" @click="scroll" aria-label="scroll-down">
-          <div class="buttonArrow"></div>
-        </button>
         </Fade>
       </div>
-    
+
+    </div>
+    <Fade style="">
+      <button class="scrollDownButton" @click="scroll" aria-label="scroll-down">
+        <div class="buttonArrow"></div>
+      </button>
+    </Fade>
+  </div>
 </template>
 <script lang="ts">
-import FadeUp from './FadeUp.vue'
+//import FadeUp from './FadeUp.vue'
 import Fade from './Fade.vue'
 
 export default {
-    methods: {
-        scroll() {
-            const aboutSection = document.getElementById("about");
-            const headerOffset = 150;
-            const elementPosition = aboutSection?.getBoundingClientRect().top;
-            const offsetPosition = elementPosition! + window.pageYOffset - headerOffset;
-            window.scrollTo({
-                top: offsetPosition,
-                behavior: "smooth"
-            });
-        }
-    },
-    components: { FadeUp, Fade }
+  methods: {
+    scroll() {
+      const aboutSection = document.getElementById("about");
+      const headerOffset = 150;
+      const elementPosition = aboutSection?.getBoundingClientRect().top;
+      const offsetPosition = elementPosition! + window.pageYOffset - headerOffset;
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    }
+  },
+  components: { Fade }
 }
 </script>
 <style>
-
 .container {
   width: 100%;
   display: flex;
-  justify-content: center;
-  margin-top: 12rem;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  height: 65vh;
+  height: 90vh;
 }
 
 .items {
- display: grid;
- grid-template-columns: 1fr 1fr; 
- 
- 
- justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+
+
+  justify-items: center;
 }
 
 .titles {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -89,13 +84,13 @@ export default {
   background-image: url("@/assets/Martin Studna-48.png");
   width: 400px;
   height: 600px;
-  box-shadow: 0 0  10px 10px white inset;
+  box-shadow: 0 0 10px 10px white inset;
   background-size: contain;
   background-repeat: round;
   border-radius: 30px;
   margin-left: 2rem;
   /* opacity: .9; */
-  
+
 }
 
 
@@ -103,7 +98,7 @@ export default {
   flex-direction: column;
   font-size: small;
   justify-self: flex-end;
-  margin-top: auto;
+  
   margin-bottom: 40px;
   background-color: transparent;
   padding: 8px;
@@ -136,20 +131,25 @@ export default {
   0% {
     -webkit-transform: rotate(-45deg) translate(0, 0);
   }
+
   20% {
     -webkit-transform: rotate(-45deg) translate(-10px, 10px);
   }
+
   40% {
     -webkit-transform: rotate(-45deg) translate(0, 0);
   }
 }
+
 @keyframes sdb04 {
   0% {
     transform: rotate(-45deg) translate(0, 0);
   }
+
   20% {
     transform: rotate(-45deg) translate(-10px, 10px);
   }
+
   40% {
     transform: rotate(-45deg) translate(0, 0);
   }
@@ -166,6 +166,7 @@ export default {
 
     margin-top: 2rem;
   }
+
   .items {
     grid-template-columns: 1fr;
     place-items: center;
@@ -193,6 +194,4 @@ export default {
     margin-left: 0;
   }
 
-}
-    
-</style>
+}</style>
