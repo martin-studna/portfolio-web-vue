@@ -26,7 +26,8 @@ export default defineComponent({
   flex-direction: column;
 }
 
-
+@media (min-width: 1024px) {
+  
 body::-webkit-scrollbar-track
 {
 	/* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
@@ -43,7 +44,11 @@ body::-webkit-scrollbar
 body::-webkit-scrollbar-thumb
 {
 	background-color: #000000;
+}  
+  
 }
+
+
 
 
 .footer-line {

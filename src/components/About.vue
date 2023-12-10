@@ -1,5 +1,5 @@
 <template lang="">
-    <div id="about" style="height: 100vh; display: flex; flex-direction: column; justify-content: center" >
+    <div id="about" style=" display: flex; flex-direction: column; justify-content: center" >
       <FadeUp> 
        <h1 class="description" >I'm a Deep Learning Engineer & Consultant</h1>
       </FadeUp>
