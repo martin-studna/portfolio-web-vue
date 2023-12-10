@@ -12,7 +12,7 @@
               <br />
               +420 775 058 619
             </div>
-            <h1 class="title" style="margin-bottom: 0; font-size: 7em;">MARTIN STUDNA</h1>
+            <h1 class="title">MARTIN STUDNA</h1>
             <div class="subtitle" style="font-size: 1.2em; margin-left: .5rem;">DEEP LEARNING ENGINEER & CONSULTANT</div>
           </div>
         </Fade>
@@ -72,6 +72,8 @@ export default {
 
 .title {
   color: black;
+  margin-bottom: 0; 
+  font-size: 7em;
   margin-top: 0;
 }
 
@@ -179,7 +181,7 @@ export default {
   }
 
   .title {
-    margin-bottom: 0;
+    
   }
 
   #profile-image-container {
@@ -194,4 +196,12 @@ export default {
     margin-left: 0;
   }
 
-}</style>
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 4em;
+  }
+}
+
+</style>

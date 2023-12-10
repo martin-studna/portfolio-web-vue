@@ -1,12 +1,12 @@
 <template lang="">
-    <div id="about" style="height: 100vh" >
+    <div id="about" style="height: 100vh; display: flex; flex-direction: column; justify-content: center" >
       <FadeUp> 
-       <h1 class="description" ><span style="color: #D72323">AI</span> Engineer turning ideas into innovations</h1>
+       <h1 class="description" >I'm a Deep Learning Engineer & Consultant</h1>
       </FadeUp>
       <FadeUp>
       <div class="subDescription">
-        <span style="font-weight: bold">Machine Learning, Computer Vision and Natural Language Processing</span>,
-        4 years of professional experience in Software Engineering,
+        <span style="font-weight: bold">Deep Learning, Computer Vision and LLMs</span>,
+        5 years of professional experience in Software Engineering,
         <br/>
         The MSc. in Artificial Intelligence, Charles University in Prague, 
       Faculty of Mathematics and Physics
