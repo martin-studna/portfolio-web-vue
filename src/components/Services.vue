@@ -6,68 +6,29 @@
         <div class="services-items">
             <FadeUp>
                 <div>
-                    <div class="title4">MACHINE LEARNING</div>
-                    <ul>
-                        <li>Custom model development for specific business needs</li>
-                        <li>Data analysis to extract valuable insights from large datasets.</li>
-                        <li>MLOps - Deployment solutions for seamless integration into existing systems.</li>
-                        <li>Recommendation systems for personalized product/service recommendations.</li>
-                        <li>Fraud detection</li>
-                        <li>Time series forecasting and anomaly detection</li>
-                        <li>Algorithmic trading</li>
-                        <li>Technology: Scikit-learn, Pandas</li>
-                        
-                    </ul>
+                    <div class="title4 service">CUSTOM DEEP LEARNING MODELS</div>
                 </div>
             </FadeUp>
             <FadeUp>
                 <div>
-                    <div class="title4">COMPUTER VISION</div>
-                    <ul>
-                        <li>Custom object detection and recognition system for businesses' hardware and software</li>
-                        <li>Facial recognition system for access control and personalized customer experiences</li>
-                        <li>Video analytics platform for real-time surveillance and security monitoring</li>
-                        <li>Recommendation systems for personalized product/service recommendations.</li>
-                        <li>Image and video analysis software for valuable insights and information.</li>
-                        <li>Technology: Tensorflow, PyTorch, OpenCV</li>
-                    </ul>
+                    <div class="title4 service">COMPUTER VISION APPLICATIONS</div>
+                    
                 </div>
             </FadeUp>
             <FadeUp>
                 <div>
-                    <div class="title4">NATURAL LANGUAGE PROCESSING</div>
-                    <ul>
-                        <li>Chatbot development using natural language processing for personalized customer interactions</li>
-                        <li>Text classification for customer service automation and email filtering</li>
-                        <li>Conversational AI platforms using natural language processing for virtual assistants and chatbots</li>
-                        <li>Voice assistants and voice recognition systems for smart homes and smart devices</li>
-                        <li>Language modeling and generation for automated content creation and product description generation.</li>
-                    </ul>
+                    <div class="title4 service">LLMs</div>
                 </div>
             </FadeUp>
             <FadeUp>
                 <div>
-                    <div class="title4">FRONTEND DEVELOPMENT</div>
-                    <ul>
-                        <li>I create dynamic, responsive websites using Vue and React frameworks.</li>
-                        <li>My customized solutions are optimized for your business needs.</li>
-                        <li>My expertise in web design brings your website vision to life.</li>
-                        <li>I design websites that engage your visitors and deliver exceptional user experiences.</li>
-                        <li>Let me help you create a website that stands out and delivers results.</li>
-                    </ul>
+                    <div class="title4 service">FRONTEND DEVELOPMENT</div>
                 </div>
             </FadeUp>
             <FadeUp>
                 <div>
-                    <div class="title4">BACKEND DEVELOPMENT</div>
-                    <ul>
-                        <li>I have extensive experience in backend development using C# and NodeJs.</li>
-                        <li>I leverage technologies such as ASP.NET, Docker, SQL, Redis, Messaging protocols, and Cloud technologies to create high-performance applications.</li>
-                        <li>Trust me to build a backend that provides your users with an exceptional experience.</li>
-                        <li>I specialize in creating scalable, secure, and reliable backend systems that can handle high traffic and complex workflows.</li>
-                        <li>Let me help you create a backend that powers your business and delivers results.</li>
-                        
-                    </ul>
+                    <div class="title4 service">BACKEND DEVELOPMENT DATABASES CLOUD</div>
+                    
                 </div>
             </FadeUp>
         </div>
@@ -104,15 +65,17 @@ ul, li {
 .services-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    margin-top: 20px;
+    grid-gap: 60px;
+    margin-top: 80px;
+    text-align: center;
 }
+
 
 @media (max-width: 768px) {
     .services-items {
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
-
+        grid-gap: 100px;
     }
 }
 </style>
