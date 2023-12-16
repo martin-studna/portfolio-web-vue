@@ -44,6 +44,7 @@ export default defineComponent({
   flex-direction: column;
   width: 80%;
   gap: 10rem;
+  margin-bottom: 2rem;
 }
 
 
