@@ -13,9 +13,9 @@
                     title="Deep Learning Engineer"
                     date="November 2022 - Present"
                 >
-                
-                As a deep learning engineer, I am currently working on the development of smart AI tools for a camera surveillance system. My responsibilities include designing and implementing models for action recognition, pose estimation, person identification, and person tracking. I am utilizing various tools such as Python, TensorFlow, and PyTorch to develop these models, as well as writing inference engines using TensorRT and C++ to optimize performance. I am also working closely with a team of engineers to ensure the successful deployment of these AI tools in a production environment.
-                
+                - Actively engaged in the development of advanced AI tools for a sophisticated camera surveillance system. <br>
+                - Key responsibilities include the design and implementation of models for action recognition, pose estimation, person identification, and tracking. <br>
+                - Utilize a diverse toolkit comprising Python, TensorFlow, PyTorch for model development, supplemented by TensorRT and C++ for writing high-performance inference engines.
                 </Card>
             </FadeUp>
             <FadeUp class="center">
