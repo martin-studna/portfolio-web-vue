@@ -6450,6 +6450,15 @@ vue-i18n@^8.17.0:
   resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-8.28.2.tgz#913558066e274395c0a9f40b2f3393d5c2636840"
   integrity sha512-C5GZjs1tYlAqjwymaaCPDjCyGo10ajUphiwA922jKt9n7KPpqR7oM1PCwYzhB/E7+nT3wfdG3oRre5raIT1rKA==
 
+vue-i18n@^9.8.0:
+  version "9.8.0"
+  resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-9.8.0.tgz#54339daf377a31b234b027c5158e774728b6bc24"
+  integrity sha512-Izho+6PYjejsTq2mzjcRdBZ5VLRQoSuuexvR8029h5CpN03FYqiqBrShMyf2I1DKkN6kw/xmujcbvC+4QybpsQ==
+  dependencies:
+    "@intlify/core-base" "9.8.0"
+    "@intlify/shared" "9.8.0"
+    "@vue/devtools-api" "^6.5.0"
+
 vue-loader@^17.0.0:
   version "17.3.1"
   resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-17.3.1.tgz#03b80e7f65727894ed6b29c65dd54ad215a40c38"
